@@ -1,0 +1,39 @@
+{
+  "exchange": "binance",
+  "websocket": {
+    "baseUrl": "wss://stream.binance.com:9443/ws",
+    "streams": [
+      "btcusdt@bookTicker",
+      "ethbtc@bookTicker",
+      "ethusdt@bookTicker",
+      "bnbbtc@bookTicker",
+      "bnbusdt@bookTicker",
+      "bnbeth@bookTicker"
+    ],
+    "reconnectIntervalMs": 5000,
+    "maxReconnectAttempts": 10
+  },
+  "arbitrage": {
+    "minProfitPercent": 0.15,
+    "maxSlippagePercent": 0.05,
+    "maxPositionUSDT": 1000,
+    "cooldownMs": 2000
+  },
+  "execution": {
+    "enableTrading": false,
+    "apiBaseUrl": "https://api.binance.com",
+    "recvWindow": 5000
+  },
+  "notifications": {
+    "telegram": {
+      "enabled": true,
+      "botToken": "YOUR_BOT_TOKEN",
+      "chatId": "YOUR_CHAT_ID"
+    }
+  },
+  "logging": {
+    "tradeLogPath": "./logs/trades.json",
+    "errorLogPath": "./logs/errors.log",
+    "verbose": false
+  }
+}
