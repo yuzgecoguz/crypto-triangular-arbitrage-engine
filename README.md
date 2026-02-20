@@ -3,12 +3,13 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-Node.js-F7DF1E?logo=javascript)](https://nodejs.org/)
 [![Trading](https://img.shields.io/badge/Trading-Algorithmic-green)](https://github.com/yuzgecoguz/crypto-triangular-arbitrage-engine)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Built in](https://img.shields.io/badge/Built%20in-2022-blue)](https://github.com/yuzgecoguz/crypto-triangular-arbitrage-engine)
 
 > High-performance triangular arbitrage detection and execution engine for cryptocurrency exchanges. Sub-40ms execution across 3 trading pairs.
 
 ## Overview
 
-This repository documents the architecture and design of a real-time triangular arbitrage engine built for cryptocurrency markets. The system monitors orderbook data via WebSocket feeds, detects profitable triangular arbitrage paths, and executes trades with ultra-low latency.
+Originally built in **2022**, this repository documents the architecture and design of a real-time triangular arbitrage engine built for cryptocurrency markets. The system monitors orderbook data via WebSocket feeds, detects profitable triangular arbitrage paths, and executes trades with ultra-low latency.
 
 > **Note**: Core trading logic is proprietary. This repository serves as an architecture showcase and technical documentation.
 
