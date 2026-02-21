@@ -150,8 +150,10 @@ In addition to triangular arbitrage, a separate module monitors price difference
 
 ## Related Projects
 
-- [ethereum-smart-contract-security-audit](https://github.com/yuzgecoguz/ethereum-smart-contract-security-audit) — Smart contract vulnerability analysis
-- [oracle-manipulation-attack-demo](https://github.com/yuzgecoguz/oracle-manipulation-attack-demo) — DeFi oracle attack demonstration
+- [crypto-exchange-connector-library](https://github.com/yuzgecoguz/crypto-exchange-connector-library) — Unified adapter framework for 50+ exchanges (2025)
+- [funding-rate-arbitrage-scanner](https://github.com/yuzgecoguz/funding-rate-arbitrage-scanner) — Delta-neutral funding rate strategy (2025)
+- [ethereum-smart-contract-security-audit](https://github.com/yuzgecoguz/ethereum-smart-contract-security-audit) — Vulnerability detection benchmark across 47,000+ contracts (2025)
+- [oracle-manipulation-attack-demo](https://github.com/yuzgecoguz/oracle-manipulation-attack-demo) — Flash loan oracle manipulation PoC (2025)
 
 ## License
 
